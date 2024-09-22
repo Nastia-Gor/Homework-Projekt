@@ -1,0 +1,105 @@
+@media screen and (max-width: 1025px) {
+  header.mobile {
+    display: none;
+  }
+  .section-2 {
+    padding-top: 50px;
+  }
+  .section-2 .container {
+    padding: 10px;
+  }
+  .section-2 #tabs {
+    padding: 0 10px;
+  }
+  .section-2 #tabs .tab-content {
+    padding: 20px 10px;
+  }
+  .section-2 #tabs ul li {
+    padding: 8px 10px;
+    padding-right: 60px;
+  }
+  .section-2 #tabs .tab-content {
+    padding-left: 60px;
+  }
+  .section-3 {
+    padding-bottom: 60px;
+  }
+  .section-4 {
+    padding: 30px;
+  }
+  .section-4 .slider-item .image-container img {
+    max-width: 400px;
+    height: 500px;
+  }
+  .section-5 {
+    background: #FFFFFF;
+  }
+  .section-6 {
+    padding: 30px 60px 50px;
+  }
+  .section-6 .publication-btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section-6 h1 {
+    font-size: 38px;
+    padding-top: 10px;
+  }
+  .section-6 .publications {
+    gap: 30px;
+  }
+  .section-6 .publications .publication-card img {
+    width: 100%;
+    height: auto;
+  }
+  .section-6 .publications .publication-card .content {
+    margin: 20px;
+  }
+  .section-6 .publications .publication-card .content h5 {
+    margin-bottom: 10px;
+  }
+  .section-6 .publications .publication-card .content .publication-line {
+    height: 3px;
+    margin-bottom: 10px;
+  }
+  .section-6 .publications .publication-card .content p {
+    margin-bottom: 15px;
+  }
+  footer .upper-part .copyright {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  header.mobile {
+    display: flex;
+  }
+  header.desktop {
+    display: none;
+  }
+  .section-3 .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-4 .slider-item {
+    display: grid;
+  }
+  .section-4 .slider-item .image-container img {
+    max-width: 675px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    padding-bottom: 5px;
+  }
+  .section-5 .partners-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-6 .publications {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .section-6 .publications .publication-card:last-child {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+  .section-6 .publications .publication-card:last-child img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=adaptive-index.css.map */

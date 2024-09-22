@@ -1,0 +1,33 @@
+@media screen and (max-width: 1025px) {
+  header {
+    padding: 20px 10px;
+  }
+  header.mobile {
+    display: none;
+  }
+  .grid .publication-card img {
+    max-width: 282px;
+    height: 200px;
+  }
+  .grid .publication-card .content {
+    margin: 10px;
+  }
+  footer .upper-part .copyright {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  header.mobile {
+    display: flex;
+  }
+  header.desktop {
+    display: none;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid .publication-card img {
+    max-width: 309px;
+    height: 200px;
+  }
+}/*# sourceMappingURL=adaptive-pub.css.map */
